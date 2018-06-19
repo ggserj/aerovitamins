@@ -1,0 +1,50 @@
+body{
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+h1{
+	padding: 20px;
+	color: #ffffff;
+}
+
+.c-antitabak{
+	background-color: #57834D;
+}
+
+.c-zabota{
+	background-color: #62619E;
+}
+
+.c-zdoroviy_son{
+	background-color: #AC9ABC;
+}
+
+.c-antistress{
+	background-color: #D99BA8;
+}
+
+.c-bodrost{
+	background-color: #80B14A;
+}
+
+.c-immunitet{
+	background-color: #DCB835;
+}
+
+.c-activ{
+	background-color: #CA4841;
+}
+
+.c-antiallergen{
+	background-color: #00A5C9;
+}
+
+.c-sensitiv{
+	background-color: #599AC5;
+}

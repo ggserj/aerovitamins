@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Аэровитамины REBION</title>
+	<meta name="description" content="Аэровитамины REBION – лучшие природные витаминные комплексы для взрослых и детей. Повышение иммунитета и профилактический эффект.">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start':
+				new Date().getTime(),
+			event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s),
+			dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-NJX6NJ5');</script>
+	<!-- End Google Tag Manager -->
+
+
+	<link rel="stylesheet" href="css/Normalize.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/Style.css">
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/cleave.min.js"></script>
+	<script src="js/cleave-phone.ru.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJX6NJ5"
+	        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!--........................................Шапка.........................................-->
+
+<header id="nav-logo">
+	<nav>
+		<div class="nav_container">
+			<a href="#nav-logo">
+				<img src="img/Logo.png" alt="" class="logo">
+			</a>
+			<ul>
+				<li class="sm-hidden">
+					<a href="#nav-catalog">Каталог</a>
+				</li>
+				<li class="sm-hidden">
+					<a data-fancybox data-src="#delivery" href="javascript:">Доставка</a>
+				</li>
+				<li>
+					<a data-fancybox data-src="#cart" href="javascript:" class="buy_btn openCart">Корзина</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="gradient"></div>
+	<div class="container">
+		<h1>Дышите полезным воздухом в мегаполисе!</h1>
+		<div class="slogan">
+			<h2>Спреи REBION<sup>&reg;</sup>
+			</h2>
+			<p>это композиции экстрактов лекарственных растений для распыления, созданные специально для восполнения дефицита полезных веществ в воздухе помещений в условиях мегаполиса</p>
+			<img src="img/bottles.png" alt="aerovitamins" class="bottles">
+		</div>
+	</div>
+
+</header>
+
+<!--........................................Корзина.........................................-->
+
+<div id="cart">
+	<h1>Корзина</h1>
+
+	<div id="cartContent">
+		<!-- табличка корзины тут -->
+	</div>
+
+	<button class="buy_btn" id="clear-cart">Очистить корзину</button>
+
+	<form action="mail.php" method="post" id="my_form">
+
+		<ul class="shipping-method" id="shipping-method">
+			<li>
+				<input type="radio" id="shipping-1" name="shipping" data-shipping="0" value="Самовывоз из офиса (Бесплатно)" required checked>
+				<label for="shipping-1">Самовывоз из офиса (Бесплатно)</label>
+			</li>
+
+			<li>
+				<input type="radio" id="shipping-2" name="shipping" data-shipping="380" value="Курьерская служба (Москва в пределах МКАД): 380₽" required>
+				<label for="shipping-2">Курьерская служба (Москва в пределах МКАД): 380₽</label>
+			</li>
+
+			<li>
+				<input type="radio" id="shipping-3" name="shipping" data-shipping="600" value="Срочная доставка (по Москве): 600₽" required>
+				<label for="shipping-3">Срочная доставка (по Москве): 600₽</label>
+			</li>
+
+			<li>
+				<input type="radio" id="shipping-4" name="shipping" data-shipping="500" value="Курьерская служба (регионы РФ): 500₽" required>
+				<label for="shipping-4">Курьерская служба (регионы РФ): 500₽</label>
+			</li>
+
+			<li>
+				<input type="radio" id="shipping-5" name="shipping" data-shipping="170" value="Самовывоз из ПВЗ Boxberry в Москве: 170₽" required>
+				<label for="shipping-5">Самовывоз из ПВЗ Boxberry в Москве: 170₽</label>
+			</li>
+
+			<li>
+				<input type="radio" id="shipping-6" name="shipping" data-shipping="200" value="Самовывоз из ПВЗ Boxberry в МО, СПБ, ЛенОбл, города ЦФО, СЗФО, ЮФО, СКФО, ПривФО: 200₽" required>
+				<label for="shipping-6">Самовывоз из ПВЗ Boxberry в МО, СПБ, ЛенОбл, города ЦФО, СЗФО, ЮФО, СКФО, ПривФО: 200₽</label>
+			</li>
+
+			<li>
+				<input type="radio" id="shipping-7" name="shipping" data-shipping="300" value="Самовывоз из ПВЗ Boxberry в города УрФО, СибФО и Дальневосточного ФО: 300₽" required>
+				<label for="shipping-7">Самовывоз из ПВЗ Boxberry в города УрФО, СибФО и Дальневосточного ФО: 300₽</label>
+			</li>
+		</ul>
+
+		<input id="name" name="name" type="text" placeholder="Ф.И.О.*" required>
+
+		<input id="phone" name="phone" type="tel" placeholder="Телефон*" pattern="(8|\+7)\s?-?\(?\d{3}\)?\s?-?\d{3}\s?-?\d{2}\s?-?\d{2}" required>
+
+		<input id="email" name="email" type="text" placeholder="Email">
+
+		<input id="adress" name="adress" type="text" placeholder="Адрес для доставки">
+
+		<textarea id="comment" name="comment" placeholder="Комментарии к заказу" class="comment"></textarea>
+
+		<input type="submit" value="Заказать" class="buy_btn">
+
+	</form>
+
+	<div class="after-form">
+		<p>* - поля обязательные к заполнению</p>
+		<p>Заявки принимаются круглосуточно и обрабатываются ежедневно
+			<br> с 10:00 до 19:00
+		</p>
+	</div>
+
+</div>
+
+<!--........................................Чем мы дышим.........................................-->
+
+<div class="breath">
+	<div class="container">
+		<h2>Чем мы дышим в городе?</h2>
+		<div class="items">
+			<div class="item">
+				<img src="img/1-1.svg" alt="street" class="breath_icons">
+				<h3>На улице</h3>
+				<p>Воздух давно перестал быть чистым и свежим, в нем много токсинов, что вызывает аллергии, снижение иммунитета, общую усталость</p>
+			</div>
+			<div class="item">
+				<img src="img/2-1.svg" alt="rooms" class="breath_icons">
+				<h3>Воздух закрытых помещений</h3>
+				<p>Дефицит полезных природных веществ в воздухе закрытых помещений вызывает раздражительность, бессонницу, быструю утомляемость и депрессию</p>
+			</div>
+			<div class="item">
+				<img src="img/3-1.svg" alt="conditioners" class="breath_icons">
+				<h3>Кондиционеры</h3>
+				<p>Многие системы не проходят необходимое сервисное обслуживание и являются источником опасных микробов и аллергенов в воздухе</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--........................................Как работают.........................................-->
+
+<div class="howToUse">
+	<div class="container">
+		<h2>Как работают спреи REBION</h2>
+		<div class="items">
+			<div class="items"> <!-- для парности -->
+				<div class="item">
+					<img src="img/1-2.svg" alt="purify" class="howToUse_icons">
+					<h3>Очищают</h3>
+					<p>Очищают воздух от пыли, пуха и вредных микроорганизмов (бактерий, вирусов, плесневых грибов), облегчают дыхание</p>
+				</div>
+				<div class="item">
+					<img src="img/2-2.svg" alt="restore" class="howToUse_icons">
+					<h3>Восстанавливают</h3>
+					<p>Обогащают воздух полезными природными веществами из растений</p>
+				</div>
+			</div>
+			<div class="items"> <!-- для парности -->
+				<div class="item">
+					<img src="img/3-2.svg" alt="protect" class="howToUse_icons">
+					<h3>Защищают</h3>
+					<p>Активируют естественный иммунитет</p>
+				</div>
+				<div class="item">
+					<img src="img/4-2.svg" alt="harmony" class="howToUse_icons">
+					<h3>Гармонизируют</h3>
+					<p>Улучшают психоэмоциональное состояние</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="items">
+			<!--<iframe src="https://www.youtube.com/embed/OI7kGt700mw" frameborder="0" allowfullscreen class="video"></iframe>-->
+			<div class="instructions">
+				<h3>Способ применения:</h3>
+				<h4>Мануальное:</h4>
+				<p>Распылять средство (1-3) нажатия над головой направляя спрей вверх, 2-4 раза в день и вдыхать.</p>
+				<br>
+				<h4>Автоматическое:</h4>
+				<p>Добавить нужное количество средства в воду резервуара ультразвукового аромадиффузора и включить.
+					<br>Прибор будет наполнять помещение полезными веществами 3-6 часов.
+					<br>Подходит для помещений до 30 кв.м.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--........................................Слайдер товаров 1.........................................-->
+
+<div class="catalog" id="nav-catalog">
+	<div class="container">
+		<div class="multiple-items">
+			<div class="card">
+				<img src="img/catalog/Antitabak.png" alt="Antitabak">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-antitabak card_title">Антитабак</h3>
+						<ul>
+							<li>Защищает от табачного дыма и смога</li>
+							<li>Устраняет раздражающие запахи</li>
+							<li>Облегчает дыхание</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/antitabak.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">567 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">527</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Антитабак">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Zabota.png" alt="Zabota">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-zabota card_title">Забота</h3>
+						<ul>
+							<li>Восстановление после болезни</li>
+							<li>При ослабленном иммунитете</li>
+							<li>После приема антибиотиков</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/zabota.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">594 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">552</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Забота">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Zdoroviy_son.png" alt="Zdoroviy_son">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-zdoroviy_son card_title">Здоровый сон</h3>
+						<ul>
+							<li>Улучшение качества сна</li>
+							<li>Успокаивает и снимает стресс</li>
+							<li>Вспомогательное средство при бессоннице</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/zdoroviy-son.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">608 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">566</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Здоровый сон">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Antistress.png" alt="Antistress">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-antistress card_title">Антистресс</h3>
+						<ul>
+							<li>Улучшает эмоциональное состояние</li>
+							<li>Успокаивает</li>
+							<li>Помогает при синдроме хронической усталости</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/antistress.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">590 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">549</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Антистресс">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Bodrost.png" alt="Bodrost">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-bodrost card_title">Бодрость</h3>
+						<ul>
+							<li>Повышает тонус</li>
+							<li>Снимает усталость</li>
+							<li>Снижает дискомфорт в душных помещениях</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/bodrost.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">568 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">528</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Бодрость">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Immunitet.png" alt="Immunitet">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-immunitet card_title">Иммунитет+</h3>
+						<ul>
+							<li>Укрепление защитных сил организма</li>
+							<li>Очищает воздух от вредных микроорганизмов</li>
+							<li>Облегчает дыхание</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/immunitet.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">601 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">559</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Иммунитет">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Activ.png" alt="Activ">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-activ card_title">Актив+</h3>
+						<ul>
+							<li>Повышает работоспособность</li>
+							<li>Повышает концентрацию внимания</li>
+							<li>Адаптация к нагрузкам</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/activ.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">628 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">584</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Актив">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Antiallergen.png" alt="Antiallergen">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-antiallergen card_title">Антиаллерген</h3>
+						<ul>
+							<li>Защищает органы дыхания от аллергенов</li>
+							<li>Положительно воздуйствует на слизистые оболочки</li>
+							<li>Без запаха</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/antiallergen.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">555 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">516</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Антиаллерген">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="img/catalog/Sensitiv.png" alt="sensitiv">
+				<div class="card_info">
+					<div class="card_info_item">
+						<h3 class="c-sensitiv card_title">Сенситив 2 в 1</h3>
+						<ul>
+							<li>Защищает органы дыхания от аллергенов</li>
+							<li>Положительно воздуйствует на слизистые оболочки</li>
+							<li>Без запаха</li>
+							<li>Очищает воздух от вирусов и бактерий</li>
+						</ul>
+					</div>
+					<div class="card_info_item">
+						<a data-fancybox data-type="iframe" data-src="details/catalog-1/sensitiv.html" href="javascript:" class="details">Подробнее</a>
+						<p>Цена:
+							<span class="strikethrough">564 руб</span>
+						</p>
+						<p>Цена по акции*:
+							<span class="card_price">525</span> руб
+						</p>
+						<button class="buy_btn sl1-buy add-to-cart" name="Сенситив">В корзину</button>
+						<div class="amount">
+							<span class="minus">-</span>
+							<input type="number" value="1" min="1" max="99"/>
+							<span class="plus">+</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="sale-end">*Срок действия акции до 1 июля 2018 г.</p>
+	</div>
+
+
+</div>
+
+<!--........................................Хиты.........................................-->
+
+<div class="hits">
+	<div class="container">
+		<div class="hits-wrap">
+			<div class="hits-grid">
+				<img src="img/catalog/Antiallergen.png" alt="Антиаллерген" class="hits_pic hits_pic1">
+
+				<img src="img/catalog/Sensitiv.png" alt="Сенситив" class="hits_pic hits_pic2">
+
+				<img src="img/hit.png" alt="Хит" class="hits_flag">
+
+				<div class="hits-card hits_card1">
+					<h3>АНТИАЛЛЕРГЕН</h3>
+					<h4>Защита органов дыхания от аллергенов</h4>
+					<ul>
+						<li>Очищает воздух от пыли, пуха, шерсти и других аллергенов</li>
+						<li>Положительно воздействует на слизистые оболочки носа</li>
+						<li>Устраняя раздражители из воздуха облегчает дыхание</li>
+					</ul>
+					<a data-fancybox data-type="iframe" data-src="details/catalog-1/antiallergen.html" href="javascript:" class="details">Подробнее</a>
+					<p>Цена:
+						<span class="strikethrough">555 руб</span>
+					</p>
+					<p class="hits-price">Цена по акции*:
+						<span class="card_price">516</span> руб
+					</p>
+					<div class="amount">
+						<span class="minus">-</span>
+						<input type="number" value="1" min="1" max="99"/>
+						<span class="plus">+</span>
+					</div>
+					<button class="buy_btn add-to-cart" name="Антиаллерген">В корзину</button>
+				</div>
+
+				<div class="hits-card hits_card2">
+					<h3>СЕНСИТИВ
+						<span class="two-v1">2 в 1</span>
+					</h3>
+					<h4>Защита органов дыхания от аллергенов</h4>
+					<ul>
+						<li>Очищает воздух от пыли, пуха, шерсти и других аллергенов</li>
+						<li>Положительно воздействует на слизистые оболочки носа</li>
+						<li>Устраняя раздражители из воздуха облегчает дыхание</li>
+						<li>Благодаря повышенному содержанию экстракта сосны очищает воздух от вирусов и бактерий</li>
+					</ul>
+					<a data-fancybox data-type="iframe" data-src="details/catalog-1/sensitiv.html" href="javascript:" class="details">Подробнее</a>
+					<p>Цена:
+						<span class="strikethrough">564 руб</span>
+					</p>
+					<p class="hits-price">Цена по акции*:
+						<span class="card_price">525</span> руб
+					</p>
+					<div class="amount">
+						<span class="minus">-</span>
+						<input type="number" value="1" min="1" max="99"/>
+						<span class="plus">+</span>
+					</div>
+					<button class="buy_btn add-to-cart" name="Сенситив">В корзину</button>
+				</div>
+
+			</div>
+
+			<p class="sale-end">*Срок действия акции до 1 июля 2018 г.</p>
+		</div>
+
+	</div>
+</div>
+
+<!--........................................Специальное предложение.........................................-->
+
+<div class="special-offer">
+	<div class="container">
+		<h3>Специальное предложение – наборы REBION с аромадиффузором</h3>
+		<p>Ультразвуковые аромадиффузоры – это удобное и красивое решение для автоматизации применения Аэровитаминов REBION!<br> Просто добавьте нужное количество средства в воду резервуара прибора и дышите полезным воздухом в течение 3-6 часов
+		</p>
+	</div>
+</div>
+
+<!--........................................Слайдер товаров 2.........................................-->
+
+<div class="catalog2">
+	<div class="container">
+		<div class="multiple-items">
+			<!--<div class="card2 slick-slide">-->
+			<!--<img src="img/catalog2/Nabor-Medium-A.png" alt="diffuser">-->
+			<!--<div class="info">-->
+			<!--<h3>Набор REBION Medium A</h3>-->
+			<!--<p>Ультразвуковой аромадиффузор KBAYBO К-H11A, 120 мл </p>-->
+			<!--<p>Три любых спрея 120 мл</p>-->
+			<!--<a data-fancybox data-type="iframe" data-src="details/catalog-2/medium-a.html" href="javascript:" class="details">Подробнее</a>-->
+			<!--<p>Цена:-->
+			<!--<span class="strikethrough">3900 руб</span>-->
+			<!--</p>-->
+			<!--<p>Цена по акции*: <span class="card_price">3500</span> руб</p>-->
+			<!--<button class="buy_btn add-to-cart" name="Набор Medium A">В корзину</button>-->
+			<!--<div class="amount">-->
+			<!--<span class="minus">-</span>-->
+			<!--<input type="number" value="1" min="1" max="99"/>-->
+			<!--<span class="plus">+</span>-->
+			<!--</div>-->
+			<!--</div>-->
+			<!--</div>-->
+			<div class="card2 slick-slide">
+				<img src="img/catalog2/Nabor-Medium-B.png" alt="diffuser">
+				<div class="info">
+					<h3>Набор REBION Medium B</h3>
+					<p>Ультразвуковой аромадиффузор KBAYBO K-Н106, 150 мл </p>
+					<p>Три любых спрея 150 мл</p>
+					<a data-fancybox data-type="iframe" data-src="details/catalog-2/medium-b.html" href="javascript:" class="details">Подробнее</a>
+					<p>Цена:
+						<span class="strikethrough">3900 руб</span>
+					</p>
+					<p>Цена по акции*:
+						<span class="card_price">3500</span> руб
+					</p>
+					<button class="buy_btn add-to-cart" name="Набор Medium B">В корзину</button>
+					<div class="amount">
+						<span class="minus">-</span>
+						<input type="number" value="1" min="1" max="99"/>
+						<span class="plus">+</span>
+					</div>
+				</div>
+			</div>
+			<div class="card2 slick-slide">
+				<img src="img/catalog2/Nabor-Medium-C.png" alt="diffuser">
+				<div class="info">
+					<h3>Набор REBION Medium C</h3>
+					<p>Ультразвуковой аромадиффузор KBAYBO K-H25B, 300 мл</p>
+					<p>Три любых спрея 150 мл</p>
+					<a data-fancybox data-type="iframe" data-src="details/catalog-2/medium-c.html" href="javascript:" class="details">Подробнее</a>
+					<p>Цена:
+						<span class="strikethrough">4400 руб</span>
+					</p>
+					<p>Цена по акции*:
+						<span class="card_price">4000</span> руб
+					</p>
+					<button class="buy_btn add-to-cart" name="Набор Medium C">В корзину</button>
+					<div class="amount">
+						<span class="minus">-</span>
+						<input type="number" value="1" min="1" max="99"/>
+						<span class="plus">+</span>
+					</div>
+				</div>
+			</div>
+			<div class="card2 slick-slide">
+				<img src="img/catalog2/Nabor-Medium-C-dark.png" alt="diffuser">
+				<div class="info">
+					<h3>Набор REBION Medium C Dark</h3>
+					<p>Ультразвуковой аромадиффузор KBAYBO K-H25B, 300 мл</p>
+					<p>Три любых спрея 150 мл</p>
+					<a data-fancybox data-type="iframe" data-src="details/catalog-2/medium-c-dark.html" href="javascript:" class="details">Подробнее</a>
+					<p>Цена:
+						<span class="strikethrough">4400 руб</span>
+					</p>
+					<p>Цена по акции*:
+						<span class="card_price">4000</span> руб
+					</p>
+					<button class="buy_btn add-to-cart" name="Набор Medium C Dark">В корзину</button>
+					<div class="amount">
+						<span class="minus">-</span>
+						<input type="number" value="1" min="1" max="99"/>
+						<span class="plus">+</span>
+					</div>
+				</div>
+			</div>
+			<div class="card2 slick-slide">
+				<img src="img/catalog2/Nabor-Medium-D.png" alt="diffuser">
+				<div class="info">
+					<h3>Набор REBION Medium D</h3>
+					<p>Ультразвуковой аромадиффузор KBAYBO K-H6, 400 мл</p>
+					<p>Три любых спрея 150 мл</p>
+					<a data-fancybox data-type="iframe" data-src="details/catalog-2/medium-d.html" href="javascript:" class="details">Подробнее</a>
+					<p>Цена:
+						<span class="strikethrough">4700 руб</span>
+					</p>
+					<p>Цена по акции*:
+						<span class="card_price">4300</span> руб
+					</p>
+					<button class="buy_btn add-to-cart" name="Набор Medium D">В корзину</button>
+					<div class="amount">
+						<span class="minus">-</span>
+						<input type="number" value="1" min="1" max="99"/>
+						<span class="plus">+</span>
+					</div>
+				</div>
+			</div>
+			<div class="card2 slick-slide">
+				<img src="img/catalog2/Nabor-Medium-D-dark.png" alt="diffuser">
+				<div class="info">
+					<h3>Набор REBION Medium D Dark</h3>
+					<p>Ультразвуковой аромадиффузор KBAYBO K-H6, 400 мл</p>
+					<p>Три любых спрея 150 мл</p>
+					<a data-fancybox data-type="iframe" data-src="details/catalog-2/medium-d-dark.html" href="javascript:" class="details">Подробнее</a>
+					<p>Цена:
+						<span class="strikethrough">4700 руб</span>
+					</p>
+					<p>Цена по акции*:
+						<span class="card_price">4300</span> руб
+					</p>
+					<button class="buy_btn add-to-cart" name="Набор Medium D Dark">В корзину</button>
+					<div class="amount">
+						<span class="minus">-</span>
+						<input type="number" value="1" min="1" max="99"/>
+						<span class="plus">+</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="sale-end">*Срок действия акции до 1 июля 2018 г.</p>
+	</div>
+</div>
+
+<!--........................................Набор.........................................-->
+
+<div class="nabor">
+	<div class="container">
+		<div class="items">
+			<div class="nabor_img">
+				<img src="img/nabor.png" alt="Набор">
+			</div>
+
+			<div class="nabor-card">
+				<h2>Набор REBION<br> 3 любых спрея<br> в фирменной упаковке
+				</h2>
+				<p class="red-span">Выгодная цена:
+					<span class="card_price">1500</span>&nbsp;руб
+				</p>
+				<button class="buy_btn add-to-cart" name="Набор из 3 спреев">В корзину</button>
+				<div class="amount">
+					<span class="minus">-</span>
+					<input type="number" value="1" min="1" max="99"/>
+					<span class="plus">+</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--........................................Сертификат и отзывы.........................................-->
+
+<div class="certificate">
+	<div class="container">
+		<h2>Знак качества и результаты применения REBION</h2>
+
+		<div class="items_sert">
+			<div class="item_sert">
+				<a href="img/certificate-big.jpg" data-fancybox data-caption="Сертификат соответствия">
+					<img src="img/certificate-small.jpg" alt="certificate" class="sertif">
+				</a>
+			</div>
+
+
+			<div class="item_sert">
+				<div class="slick-slider-2">
+					<div class="review slick-slide">
+						<a href="img/review/1/1.jpg" data-fancybox>
+							<img src="img/review/1/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>Управление Здравоохранения Администрации города Серпухова</h3>
+						<p>Установлено, что применение гелей-спреев положительно влияет на работоспособность персонала, устраняет неприятные запахи, снижает риск распространения воздушно-капельных инфекций.</p>
+						<span>Нач.упр.здравоохр. – Огнева Е.Ю.</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/2/1.jpg" data-fancybox>
+							<img src="img/review/2/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>ПАО «Северсталь» в г. Москва</h3>
+						<p>Зафиксирован положительный результат и в снижении заболеваемости сотрудников. Сотрудники реже заболевали, меньше времени проводили на больничном.</p>
+						<span>Директор филиала ПАО "Северсталь" в г. Москва - Л.А.Ли</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/3/1.jpg" data-fancybox>
+							<img src="img/review/3/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>МОУ СОШ №12 "Центр образования", г.Серпухов</h3>
+						<p>МОУ СОШ №12 «Центр образования» благодарны компании «Ребион Лаб» за уникальную продукцию, благодаря которой школа получила хорошие результаты по здоровью.</p>
+						<span>Зам.Дир. по УВР – Зендрикова О.А.</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/4/1.jpg" data-fancybox>
+							<img src="img/review/4/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>ГАОУ СПО МО "Губернский профессиональный колледж", Серпухов</h3>
+						<p>Установлено, что применение средств серии «Биологическое очищение воздуха» положительно влияет на укрепление иммунитета, повышение работоспособности обучающихся, снижения уровня утомляемости и заболеваемости ОРВИ</p>
+						<span>Директор - А.И. Лысиков</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/5/1.jpg" data-fancybox>
+							<img src="img/review/5/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>МБЛПУ «Протвинская городская больница» (хирургическое отделение)</h3>
+						<p>Мы рекомендуем гель-спреи к широкому применению, а так же в палатах, где находятся пациенты после операций, значительной потери крови, истощенные, со сниженным имунным статусом</p>
+						<span>Зав.отд. Хирургии – С.В. Ивашов</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/6/1.jpg" data-fancybox>
+							<img src="img/review/6/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>ГБУЗ «Туберкулезная клиническая больница №7» г. Москва</h3>
+						<p>Через месяц от начала применения средств у 9 больных полностью купирован интоксикационный синдром. У 8 больных отмечено уменьшение или полное отсутствие бактериовыделения. Аллергических реакций не наблюдалось</p>
+						<span>Зав.отд. 8-1 ГБУЗ ТКБ №7 – Климова Е.Г.</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/7/1.jpg" data-fancybox>
+							<img src="img/review/7/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>ГБУЗ "Серпуховской Противотуберкулёзный Диспансер, г.Серпухов</h3>
+						<p>Через месяц от начала применения у 100% больных полностью нормализовалась температура, уменьшилась тошнота, улучшилась функция дыхания, прекратилось кровохарканье. Улучшилось настроение, аппетит и сон.</p>
+						<span>ГБУЗ «СПТД» т/о – Е.В. Чёрный</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/8/1.jpg" data-fancybox>
+							<img src="img/review/8/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>МУЗ "Серпуховская стоматологическая поликлиника №2", г.Серпухов</h3>
+						<p>Эффективной мерой профилактики служит обработка воздуха безопасными и эффективными средствами на основе природных бактерицидов, например аэропротекторами REBION серии «Биологическое очищение воздуха».</p>
+						<span>Главный врач – М.А. Бунин</span>
+					</div>
+					<div class="review slick-slide">
+						<a href="img/review/9/1.jpg" data-fancybox>
+							<img src="img/review/9/bg.jpg" alt="" class="review_bg">
+						</a>
+						<h3>ФГБУЗ «Больница Пущинского научного центра РАН», г.Пущино</h3>
+						<p>При микробиологическом исследовании воздуха было выявлено 2-х – 5-ти-кратное снижение ОМЧ Str.Gemoliticus, Staph. Aurius и других условно-патогенных микроорганизмов после обработки гель-спреями.</p>
+						<span>Гл.врач БПНЦ РАН – Турьев С.Н.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--........................................Доставка.........................................-->
+
+<div class="dostavka" id="nav-dostavka">
+	<div class="container">
+		<h2>Доставка</h2>
+		<p>Доставка осуществляется в любую точку России курьерскими службами до удобного пункта выдачи заказа или до двери.<br> Также, возможен самовывоз из офисов компании в Москве.<br> Узнайте более подробно о возможных вариантах доставки и тарифах в разделе
+			<a href="https://rebion.ru/dostavka/" target="_blank">Доставка</a> или задайте вопрос нашему консультанту.
+		</p>
+		<ul>
+			<li>Срочная доставка</li>
+			<li>Пункты выдачи заказов Boxberry</li>
+			<li>Доставка курьером до двери</li>
+			<li>Самовывоз</li>
+		</ul>
+	</div>
+</div>
+
+<div id="delivery">
+	<h2>Доставка</h2>
+	<h3>Для вашего удобства, мы доставим «аэровитамины REBION» в любую точку России.<br> Не откладывайте свое здоровье «на потом».<br> Закажите прямо сейчас!
+	</h3>
+	<ul>
+		<li>Курьерская служба (Москва в пределах МКАД): 380 ₽</li>
+		<li>Срочная доставка (по Москве): 600 ₽</li>
+		<li>Курьерская служба (регионы РФ): 500 ₽</li>
+		<li>Самовывоз из офиса (Бесплатно)</li>
+	</ul>
+	<p>Время работы – пн-пт с 11:00 до 18:00. Адреса пунктов выдачи заказов:</p>
+	<ul>
+		<li>Москва, Нижний Кисельный пер, д. 23/5, стр.1, 5 этаж, офис 518</li>
+		<li>Москва, ул. Магистральная 4-я, д.11, стр.2, 2 этаж, офис 213</li>
+		<li>Самовывоз из ПВЗ Boxberry в Москве: 170 ₽</li>
+		<li>Самовывоз из ПВЗ Boxberry в МО, СПБ, ЛенОбл, города ЦФО, СЗФО, ЮФО, СКФО, ПривФО: 200 ₽</li>
+		<li>Самовывоз из ПВЗ Boxberry в города УрФО, СибФО и Дальневосточного ФО: 300 ₽</li>
+	</ul>
+	<p>Сроки доставки:</p>
+	<p>Дата и время доставки уточняются и согласовываются с покупателем при подтверждении заказа по телефону.</p>
+
+</div>
+
+<!--........................................Форма обратной связи.........................................-->
+
+<div class="forma" id="forma">
+	<div class="container">
+		<h2>Заполните форму заказа</h2>
+		<form action="mail.php" method="post" id="form2">
+
+			<input id="name2" name="name" type="text" placeholder="Ф.И.О.*" required>
+
+			<input id="phone2" name="phone" type="tel" placeholder="Телефон*" pattern="(8|\+7)\s?-?\(?\d{3}\)?\s?-?\d{3}\s?-?\d{2}\s?-?\d{2}" required>
+
+			<input id="email2" name="email" type="text" placeholder="Email">
+
+			<textarea id="comment2" name="comment" placeholder="Комментарии к заказу" class="comment"></textarea>
+
+			<input type="submit" value="Заказать" class="buy_btn">
+
+		</form>
+		<div class="after-form">
+			<p>* - поля обязательные к заполнению</p>
+			<p>Заявки принимаются круглосуточно и обрабатываются ежедневно
+				<br> с 10:00 до 19:00
+			</p>
+		</div>
+
+
+	</div>
+</div>
+
+<!--........................................Подвал.........................................-->
+
+<footer>
+	<div class="container">
+		<p>
+			ООО «Ребион Лаб»<br> Москва, ул. 4-я Магистральная, д.11, оф.213, инд.123007<br> ОГРН 5177746053887 ИНН 7714416254
+		</p>
+		<br>
+		<a data-fancybox data-type="iframe" data-src="Privacy.html" href="javascript:">Политика конфиденциальности</a>
+	</div>
+</footer>
+
+</body>
+</html>
