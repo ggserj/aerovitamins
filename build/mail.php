@@ -4,8 +4,7 @@
 	// функция отправки письма
 	function send_mail($message){
 	// почта, на которую придет письмо
-        $mail_to = "mail@rebionlab.ru"; // почта, на которую придет письмо
-//		$mail_to = "ggserj@yandex.ru";
+        $mail_to = "ggserj@yandex.ru; // почта, на которую придет письмо
 		// тема письма
 		$subject = "Заявка лендинг HC Аэровитамины";
 
